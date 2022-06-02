@@ -1,0 +1,24 @@
+.movieCard{
+    width: 230px;
+    height: 345px;
+    list-style: none;
+    font-size:  1rem;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25),
+    -5px -5px 30px 7px rgba(0,0,0,0.22);
+
+}
+
+.movieImage{
+    border-radius: 10px;
+    background-color: azure;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px){
+    .movieImage{
+        width: 90%;
+        height: auto;
+    }
+}
