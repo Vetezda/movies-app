@@ -43,6 +43,7 @@ img {
     width: 100%;
 }
 .card__poster img{
+    margin-top: 10px;
     max-width: 130px;
     border-radius: 5px;
     animation: poster 1.5s linear 2s infinite alternate;
@@ -164,6 +165,54 @@ img {
 }
 
 
+@media (max-width: 454px) {
 
+.content__title{
+    font-size: 1.0rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.content__genres{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+    .content__vote{
+        font-size: 1.1rem;
+        margin: 160px 50px 75px 130px;
+
+        width: 55px;
+        height: 55px;
+    }
+  }
+  .drop-active{
+    height: 230px;
+}
+@media (max-width: 320px) {
+
+.content__title{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.content__genres{
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+    .content__vote{
+        font-size: 1.0rem;
+        margin: 160px 50px 75px 110px;
+
+        width: 45px;
+        height: 45px;
+    }
+    .drop-active{
+        height: 260px;
+    }
+  }
+  
 
 

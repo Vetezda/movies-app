@@ -48,3 +48,10 @@
     transform: rotate(-45deg);
     top: 13px;
   }
+  @media (max-width: 320px) {
+    .nav-icon-5{
+      width: 25px;
+      height: 28px;
+    }
+  }
+  
